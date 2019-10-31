@@ -1,0 +1,65 @@
+.nav {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	align-items: center;
+}
+
+.nav .nav-item {
+	color: #6c6c6c;
+	font-family: "Segoe WPN";
+	font-size: 20px;
+	font-weight: 400;
+	letter-spacing: 0.2px;
+	text-decoration: none;
+	padding-left: 20px;
+}
+	
+.nav .nav-item.is-active {
+	color: #5094f2;
+	font-family: "Segoe WPN";
+	font-size: 20px;
+	font-weight: 400;
+	letter-spacing: 0.2px;
+}
+	
+
+.nav-item:hover {
+	color: #AFEEEE;
+}
+
+@media (max-width: 640px) {
+	.nav {
+		display: none;
+	}
+
+	.nav-menu {
+		width: 58px;
+		height: 44px;
+		background-color: #5094f2;
+	}
+}
+
+@media (min-width: 640px) {
+	.nav-menu {
+		display: none;
+	}
+}
+
+@media (min-width: 1200px) {
+	.nav .nav-item {
+		font-size: 18px;
+	}
+
+	.nav .nav-item.is-active {
+		font-size: 18px;
+	}
+}
+
+
+
+
+
+

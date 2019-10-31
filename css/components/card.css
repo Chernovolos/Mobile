@@ -1,0 +1,26 @@
+.card {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.card-img > img {
+	width: 100%;
+	min-height: 223px;
+}
+
+.card-images > img {
+	width: 100%;
+	min-height: 162px;
+}
+
+@media (min-width: 640px) {
+	.card {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+	}
+}

@@ -1,0 +1,71 @@
+.icon-logo {
+	color: #ffffff;
+	font-size: 30px;
+	background-color: #5094f2;
+	border-radius: 100%;
+	padding: 20px;
+}
+
+.icon-1 {
+	color: #ffffff;
+	font-size: 50px;
+	background-color: #5094f2;
+	border-radius: 100%;
+	padding: 30px;
+}
+
+.icon-2 {
+	color: #ffffff;
+	font-size: 50px;
+	background-color: #d94748;
+	border-radius: 100%;
+	padding: 30px;
+}
+
+.icon-3 {
+	color: #ffffff;
+	font-size: 50px;
+	background-color: #ebbb11;
+	border-radius: 100%;
+	padding: 30px;
+}
+
+.icon-4 {
+	color: #ffffff;
+	font-size: 40px;
+	text-decoration: none;
+	padding-left: 10px;
+}
+
+@media (min-width: 480px) {
+	.icon-1 {
+		font-size: 60px;
+		padding: 40px;
+	}
+
+	.icon-2 {
+		font-size: 60px;
+		padding: 40px;
+	}
+
+	.icon-3{
+		font-size: 60px;
+		padding: 40px;
+	}
+}
+
+@media (min-width: 640px) {
+	.icon-1 {
+		font-size: 90px;
+	}
+
+	.icon-2 {
+		font-size: 90px;
+		padding: 40px;
+	}
+
+	.icon-3{
+		font-size: 90px;
+		padding: 40px;
+	}
+}

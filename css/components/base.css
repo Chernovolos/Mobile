@@ -1,0 +1,73 @@
+*, *::after, *::before {
+	box-sizing: border-box;
+}
+
+html {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	background-color: #ffffff;
+	color: #413d4b;
+}
+
+.container {
+	max-width: 960px;
+	padding: 0 16px;
+	margin: 0 auto;
+}
+
+@media (min-width: 480px) {
+	.container {
+		padding: 0 30px;
+	}
+}
+
+/*a:hover, .link:hover {
+	color: #465a64;
+} */
+
+
+figure {
+	margin: 0;
+}
+
+p, ul, ol,{
+	margin: 0 0 15px 0;
+}
+
+
+ul > li > ol,
+ul > li > ul,
+ol > li > ol,
+ol > li > ul {
+	margin: 0;
+}
+li {
+	padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0 0 0.67em 0;
+}
+
+
+* + h1, * + h2, * + h3, * + h4, * + h5, * + h6  {
+	margin-top: 0.67em;	
+}
+
+.pt {
+	padding-top: 20px;
+}
+
+.pb {
+	padding-bottom: 15px;
+}
+
+.mt {
+	margin-top: 50px;
+}
+
+hr {
+	height: 1px;
+	opacity: 0.1;
+}
