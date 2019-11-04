@@ -17,17 +17,31 @@
 	padding-left: 20px;
 }
 	
-.nav .nav-item.is-active {
-	color: #5094f2;
+.nav .nav-item.is-active:after {
+	display: block;
+	content: "";
+	height: 2px;
+    width: 100%;
 	font-family: "Segoe WPN";
 	font-size: 20px;
 	font-weight: 400;
 	letter-spacing: 0.2px;
 }
-	
 
-.nav-item:hover {
-	color: #AFEEEE;
+
+.nav .nav-item::after {
+    background-color: #5094f2;
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+}
+.nav .nav-item:hover:after,
+.nav .nav-item:focus:after {
+    width: 100%;
 }
 
 @media (max-width: 640px) {
@@ -39,6 +53,7 @@
 		width: 58px;
 		height: 44px;
 		background-color: #5094f2;
+		margin: 5px 0;
 	}
 }
 
@@ -57,7 +72,6 @@
 		font-size: 18px;
 	}
 }
-
 
 
 
