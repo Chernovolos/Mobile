@@ -1,9 +1,9 @@
 .icon-logo {
 	color: #ffffff;
-	font-size: 30px;
+	font-size: 20px;
 	background-color: #5094f2;
 	border-radius: 100%;
-	padding: 20px;
+	padding: 5px;
 }
 
 .icon-1 {
@@ -37,6 +37,7 @@
 	padding-left: 10px;
 }
 
+
 @media (min-width: 480px) {
 	.icon-1 {
 		font-size: 60px;
@@ -67,5 +68,11 @@
 	.icon-3{
 		font-size: 90px;
 		padding: 40px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.icon-logo{
+		font-size: 28px;
 	}
 }
