@@ -1,7 +1,7 @@
 .section { 
   position: relative; 
   padding: 30px 0;
-  text-align: center;
+ /* text-align: center;*/
 }
 
 .section-hero {
@@ -29,7 +29,7 @@
   background-image: url(.././../images/decore.png);
   background-position: left bottom;
   background-repeat: repeat-x;
-  padding: 40px 0;
+  padding: 30px 0;
 }
 
 
@@ -38,7 +38,7 @@
   font-family: "Segoe WP";
   font-size: 25px;
   font-weight: 300;
-  line-height: 35.94px;
+  margin: 10px 0;
 }
 
 .section-caption {
@@ -54,14 +54,14 @@
   font-family: "Segoe WPN";
   font-size: 30px;
   font-weight: 400;
-  line-height: 51.86px;
+  text-align: center;
 }
 
 .section-subtitle-1 {
   color: #ffffff;
   font-size: 20px;
   font-weight: 200;
-  line-height: 35.94px;
+  margin: 10px 0;
 }
 
 .section-subtitle-2 {
@@ -76,7 +76,6 @@
   font-family: "Segoe WPN";
   font-size: 25px;
   font-weight: 400;
-  line-height: 51.86px;
 }
 
 .section-description {
@@ -84,6 +83,7 @@
   font-family: "Segoe WPN";
   font-size: 20px;
   font-weight: 400;
+  text-align: center;
 }
 
 .section-description-2 {
@@ -91,7 +91,6 @@
     font-family: "Segoe WPN";
     font-size: 18px;
     font-weight: 300;
-    line-height: 36px;
 }
 
 .section-description-3 {
@@ -99,7 +98,7 @@
   font-family: "Segoe WPN";
   font-size: 16px;
   font-weight: 300;
-  line-height: 36px;
+  text-align: center;
 }
 /*media//////////////////////////////////////////////////////////////////////////*/
 
@@ -107,7 +106,6 @@
   .section-subtitle {
     text-align: left;
     font-size: 25px;
-    margin: 0;
   }
   
   .section-description {
@@ -115,67 +113,21 @@
     margin: 0;
   }
 
-  .section-caption {
-    text-align: center;
-  }
-}
-
-@media (min-width: 640px) {
-  .section-title-1 {
-    font-size: 35px;
-  }
-
-  .section-subtitle {
-    font-size: 30px;
-  }
-
-  .section-subtitle-1{
-    font-size: 22px;
-  }
-
-  .section-description {
-    font-size: 18px;
-  }
-
-  .section-description-2 {
-    font-size: 18px;
-  }
-
-  .section-description-3 {
-    font-size: 17px;
-  }
 }
 
 @media (min-width: 960px) {
-    .section-subtitle-1 {
-      margin: 0;
-  }
 
     .section-description {
-      font-size: 16px;
+      font-size: 14px;
       text-align: center;
   }
 
-  .section-caption {
-    text-align: left;
-    padding-left: 70px;
-  }
-
-  .section-title-1 {
-    font-size: 42px;
-  }
-
-  .section-title-1 {
+   .section-title-1 {
     font-size: 30px;
   }
 
   .section-subtitle {
     font-size: 25px;
-    text-align: center;
-  }
-
-  .section-subtitle-2 {
-    font-size: 26px;
     text-align: center;
   }
 
@@ -191,6 +143,14 @@
 @media (min-width: 1200px) {
   .section-subtitle {
     font-size: 20px;
+  }
+
+  .section-title-1 {
+    font-size: 42px;
+  }
+
+  .section-subtitle-1 {
+    font-size: 26px;
   }
 
   .section-description-3 {
