@@ -73,14 +73,14 @@
 }
 
 .btn.more {
+	display: inline-block;
     color: white;
 	font-family: "Segoe WP";
 	font-size: 31px;
 	font-weight: 300; 
     background-color: #5094f2;
     border-radius: 0;
-   	padding: 10px 15px 15px 15px;
-	margin-top: 30px;
+	margin-top: 20px;
 }
 
 .btn.more::before {
@@ -89,7 +89,7 @@
     top: 8px;
 	font-family: 'icomoon';
 	content: "\e906";
-	font-size: 40px;
+	font-size: 30px;
 	padding-left: 10px;
 }
 
