@@ -16,12 +16,6 @@ html {
 	margin: 0 auto;
 }
 
-@media (min-width: 480px) {
-	.container {
-		padding: 0 30px;
-	}
-}
-
 /*a:hover, .link:hover {
 	color: #465a64;
 } */
