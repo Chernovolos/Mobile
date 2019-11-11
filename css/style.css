@@ -9,3 +9,9 @@
 @import url(components/base.css);
 @import url(components/card.css);
 @import url(components/normalize.css);
+@import url(components/slick.css);
+@import url(components/slick-theme.css);
+
+.slick-prev, .slick-arrow {
+	display: none;
+}
