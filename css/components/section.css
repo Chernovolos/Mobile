@@ -47,6 +47,7 @@
   font-size: 42px;
   font-weight: 400;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .section-subtitle {
@@ -111,6 +112,12 @@
   .section-description {
     text-align: left;
     margin: 0;
+  }
+}
+
+@media (min-width: 640px) {
+   .section-caption {
+    text-align: left;
   }
 
 }
